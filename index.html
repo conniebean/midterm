@@ -2,19 +2,37 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.9.3/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Connie Kennedy - Midterm</title>
 </head>
 <body>
-    <nav class="navbar bg-gray-50">
-        <h1 class="text-xl">Shoe Store Midterm</h1>
-        <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-            <li><a href="#">Item 1</a></li>
-            <li><a href="#">Item 2</a></li>
-            <li><a href="#">Item 3</a></li>
-        </ul>
-    </nav>
+    <nav
+  class="relative flex w-full flex-nowrap items-center justify-between bg-[#FBFBFB] py-2 text-neutral-500 shadow-lg hover:text-neutral-700 focus:text-neutral-700 dark:bg-neutral-600 lg:flex-wrap lg:justify-start lg:py-4"
+  >
+  <div class="flex w-full flex-wrap items-center justify-between px-3">
+    <div class="ml-2">
+      <a class="text-xl text-neutral-800 dark:text-neutral-200" href="#"
+        >Shoe Store Midterm</a
+      >
+    </div>
+    <div
+      class="!visible mt-2 hidden flex-grow basis-[100%] items-center lg:mt-0 lg:!flex lg:basis-auto"
+    >
+      <ul
+        class="list-style-none mr-auto flex flex-col pl-0 lg:mt-1 lg:flex-row">
+        <li
+          class="my-4 pl-2 lg:my-0 lg:pl-2 lg:pr-1">
+          <a
+            class="active disabled:text-black/30 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-neutral-400"
+            aria-current="page"
+            href="#"
+            >Home</a
+          >
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
     <div>
         <h1 class="text-3xl font-bold underline">Hello world</h1>
     </div>    
