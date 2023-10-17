@@ -34,7 +34,7 @@
           <a
             class="active bg-blue-70 lg:px-2 hover:bg-gray-50 [&.active]:text-black/90 dark:[&.active]:text-neutral-400"
             aria-current="page"
-            href="#"
+            href="index.html"
             >Products</a
           >
         </li>
@@ -51,16 +51,31 @@
     </div>
   </div>
 </nav>  
-    <div class="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 gap-4 py-4">
+    <div class="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 gap-4 py-4 px-6">
         <div class="items-center">
             <img class="xs:w-64 xs:h-64 sm:w-64 sm:h-64 lg:w-80 lg:h-80" src="assets/images/pinkNikes.jpg">
             <p class="text-black">Pink Nikes</p>
             <p class="text-black">Price: $275.00</p>
             <p class="text-black">Sizes: 6, 7, 8, 9, 10</p>
+            <p>Available quanitiy: 10</p>
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Add To Cart</button>
         </div>
-        <div class="justify-end">
-            <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
-        </div>
+        <div class="justify-end px-6">
+          <p><b>Description:</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
+          <div class="pt-6">
+            <p class="flex justify-center underline">Reviews</p>
+            <div class="grid grid-cols-1">
+              <div class="flex items-center py-2">
+                <img class="rounded-full w-20 h-20" src="assets/images/guy1.jpg">
+                <p class="px-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
+              </div>
+              <div class="flex items-center py-2">
+                <img class="rounded-full w-20 h-20" src="assets/images/guy2.jpg">
+                <p class="px-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
+              </div>
+            </div>
+          </div>
+      </div>
     </div>
 </body>
 </html>
